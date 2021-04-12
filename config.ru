@@ -15,3 +15,4 @@ use Rack::MethodOverride
 
 use UsersController
 use ThoughtsController
+use SessionsController

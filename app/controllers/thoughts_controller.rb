@@ -2,6 +2,7 @@ class ThoughtsController < ApplicationController
 
 
     get "/thoughts" do
+
         @thoughts = Thought.all
         erb :"thoughts/index" 
     end
